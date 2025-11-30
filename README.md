@@ -1,2 +1,3 @@
 # NLP-python-LIb
-NLP python LIb
+
+The program demonstrates a basic Natural Language Processing pipeline using the NLTK and spaCy libraries. It starts by downloading necessary NLTK resources such as the tokenizer and stopwords list. The text is then tokenized, which means breaking the sentence into individual words and punctuation marks. After tokenization, the words are converted to lowercase to make the analysis more consistent. The program then removes stopwords so that only meaningful words are kept for further processing. Using spaCy, it performs Part-of-Speech tagging to identify the grammatical role of each token. It also applies Named Entity Recognition to detect important entities like names or fields of study. Overall, the code shows how raw text can be cleaned, analyzed, and transformed into useful structured information.
